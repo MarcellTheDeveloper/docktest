@@ -1,0 +1,92 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #bc865c;
+}
+
+.mainSection {
+  margin: 8%;
+  border: 2px solid white;
+  border-radius: 0px 0px 50px 50px;
+}
+.menuSection {
+  display: flex;
+  justify-content: flex-end;
+  .menuIcon {
+    font-size: 76px;
+    color: #bc865c;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: -40px;
+    margin-right: -40px;
+  }
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  @media only screen and (max-width: 740px) {
+    margin-bottom: 50px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section1Left {
+    padding: 40px;
+    @media only screen and (max-width: 740px) {
+      margin-top: 100px;
+      padding: 40px 10px !important;
+    }
+
+    p {
+      @media only screen and (max-width: 740px) {
+        text-align: center;
+      }
+      font-size: 16px;
+      letter-spacing: 4px;
+      color: white;
+      line-height: 50px;
+    }
+  }
+}
+
+.section2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+  @media only screen and (max-width: 740px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: white;
+    line-height: 50px;
+    @media only screen and (max-width: 550px) {
+      text-align: center !important;
+    }
+  }
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0px 0px 45px 45px;
+  padding: 20px;
+
+  p {
+    color: #bc865c;
+    font-size: 36px;
+  }
+}
